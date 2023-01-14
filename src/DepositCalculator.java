@@ -37,6 +37,7 @@ public class DepositCalculator {
         }
         System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + outDoubleVar);
     }
+// В задании рекоментдовали переименовать переменную outDoubleVar
 
     public static void main(String[] args) {
         new DepositCalculator().calculateDepositProfit();
@@ -44,3 +45,4 @@ public class DepositCalculator {
 
 
 }
+// строки 45-46 выглядят лишними
